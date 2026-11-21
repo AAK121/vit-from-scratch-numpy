@@ -1,0 +1,25 @@
+{
+  "img_size": 64,
+  "train_resize_size": 80,
+  "patch_size": 8,
+  "in_chans": 3,
+  "num_classes": 100,
+  "embed_dim": 128,
+  "depth": 4,
+  "num_heads": 4,
+  "mlp_ratio": 4.0,
+  "seed": 0,
+
+  "data_root": "train",
+  "cache_dir": "data_cache",
+  "val_frac": 0.1,
+  "cache_seed": 1234,
+
+  "batch_size": 128,
+  "lr": 0.0003,
+  "weight_decay": 0.05,
+  "dropout": 0.1,
+  "label_smoothing": 0.1,
+  "warmup_epochs": 10,
+  "epochs": 15
+}
